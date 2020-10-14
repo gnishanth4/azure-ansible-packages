@@ -17,6 +17,9 @@ Pre Steps to do
 
 1. yum install java -y 
 
+# Install git package
+
+1. yum install git -y
 
 # Running the ansible playbooks
 
