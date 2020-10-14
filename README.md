@@ -23,10 +23,15 @@ Pre Steps to do
 
 # Running the ansible playbooks
 
-1. git clone 
+Note: Switch to root user
+1. sudo su  
 
-2. cd 
+# Install instructions 
 
-3. ansible-galaxy install -r requirements.yml
+1. git clone  https://github.com/gnishanth4/azure-ansible-packages.git
 
-4. ansible-playbook 
+2. cd azure-ansible-packages
+
+3. sudo ansible-galaxy install -r requirements.yml
+
+4. sudo ansible-playbook packages.yml
