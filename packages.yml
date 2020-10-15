@@ -5,4 +5,4 @@
    roles:
            - role: jenkins
            - role: terraform
-           - role: azure-cli
+         
