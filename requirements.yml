@@ -1,6 +1,4 @@
-# Install a Azure CLi role
-- name: azure-cli
-  src: dfarrell07.opendaylight
+
 
 # Install a Jenkins role 
 - name: jenkins
