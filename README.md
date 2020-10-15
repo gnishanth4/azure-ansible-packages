@@ -8,10 +8,9 @@ Pre Steps to do
 1. yum update
 
 # Install ansible package 
-1. yum update
-2. sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm -y
-3. sudo dnf install ansible
-4. sudo ansible --version
+1. sudo dnf -y install python3-pip
+2. pip3 install ansible --user
+3. ansible --version
 
 # Install java in RHEL 8
 
